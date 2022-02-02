@@ -17,7 +17,6 @@ while 1:
     # origin = repo.remote(name='origin')
     # origin.push()
 
-    print(subprocess.run(["ls", "-l"]))
     subprocess.run(["git", "add", "."])
     subprocess.run(["git", "commit", "-m", "test"])
     subprocess.run(["git", "push"])
